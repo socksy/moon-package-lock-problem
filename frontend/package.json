@@ -2,7 +2,8 @@
   "name": "frontend",
   "version": "1.0.0",
   "dependencies": {
-    "demo-package": "file:../../demo-package"
+    "demo-package": "git+https://github.com/socksy/demo-package.git",
+    "lodash": "^4.17.0"
   },
   "scripts": {
     "dev": "node index.js"
