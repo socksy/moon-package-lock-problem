@@ -1,0 +1,10 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "demo-package": "file:../../demo-package"
+  },
+  "scripts": {
+    "dev": "echo 'Running dev server'"
+  }
+}
