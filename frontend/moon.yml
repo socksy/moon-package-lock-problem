@@ -1,4 +1,11 @@
-$schema: 'https://moonrepo.dev/schemas/project.json'
-
+---
 language: 'javascript'
-type: 'application'
+stack: 'frontend'
+
+tasks:
+  dev:
+    local: true
+    command: 'npm run dev'
+    options:
+      runInCI: false
+

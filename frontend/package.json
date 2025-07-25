@@ -5,6 +5,6 @@
     "demo-package": "file:../../demo-package"
   },
   "scripts": {
-    "dev": "echo 'Running dev server'"
+    "dev": "node index.js"
   }
 }
